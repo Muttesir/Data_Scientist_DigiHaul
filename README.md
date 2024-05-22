@@ -128,9 +128,10 @@ Predict which deliveries might be late using machine learning models and analyze
 This machine learning approach allows accurate prediction of late deliveries, helping improve logistics by anticipating delays and taking proactive measures. The analysis and visualizations provide valuable insights into the factors contributing to late deliveries and the model's performance.
 
 ## Additional Notes
-- Enhancing the model with weather data and other external factors could further improve prediction accuracy. The API integration for weather data was not tested in this project, but it can be implemented in the future depending on business requirements
-- The process included setting up a Flask app for serving the model, enabling real-time predictions.
+- Enhancing the model with weather data and other external factors could further improve prediction accuracy. The API integration for weather data was not tested in this project, but it can be implemented in the future depending on business requirements.
+- The process included setting up a Flask app for serving the model, enabling real-time predictions. Note that this is a development server and not suitable for production deployment; more setup would be required for production use.
 - Data would be run on local files. Please check the file paths in the code to ensure they are correct. The dataset has not been uploaded due to its large size.
+- The best model can be saved for future use, but additional setup for model serialization and versioning is recommended for production environments.
 
 ## Instructions
 1. Clone this repository.
